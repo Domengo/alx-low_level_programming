@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * print char
+ * Return: Always 0 (sucess)
  */
 int main(void)
 {
