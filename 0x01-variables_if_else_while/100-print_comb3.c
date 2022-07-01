@@ -7,20 +7,17 @@
  */
 int main(void)
 {
-int a = '0';
-int b = '9';
+int num1, num2;
 
-while (a <= '9')
+for (num1 = 0 + '0' ; num1 < 10 + '0'; num1++)
 {
-while (b <= '9')
+for (num2 = num1 + 1; num2 < 10 + '0'; num2++)
 {
-if (!(a > b || a == b))
+putchar(num1);
+putchar(num2);
+if (num1 >= (8 + '0') && num2 >= (8 + '0'))
 {
-putchar(a);
-putchar(b);
-if (a == '8' && b == '9')
-{
-putchar('\n');
+;
 }
 else
 {
@@ -28,10 +25,7 @@ putchar(',');
 putchar(' ');
 }
 }
-b++;
 }
-b = '0';
-a++;
-}
+putchar('\n');
 return (0);
 }
