@@ -1,2 +1,2 @@
-#ALX LOW LEVEL PROGRAMMING 
-loops and nested loops in C
+#ALX LOW LEVEL PROGRAMMING
+loops and nested loop in C
