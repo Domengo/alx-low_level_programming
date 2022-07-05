@@ -1,23 +1,16 @@
 #include "main.h"
+
 /**
-*print_alphabet_x10 - Begin Here
-*print a-z and A-Z using putchar
-*Return: Value 0 (true)
-**/
-void print_alphabet_x10(void)
-
+ * print_alphabet - Prints the alphabet in lowercase, followed by a newline
+ */
+void print_alphabet(void)
 {
-	int i;
+	char c = 'a';
 
-	for (i = 0; i <= 9; i++)
+	while (c <= 'z')
 	{
-		char ch = 'a';
-
-		while (ch <= 'z')
-		{
-			_putchar(ch);
-			ch++;
-		}
-	_putchar('\n');
+		_putchar(c);
+		c++;
 	}
+	_putchar('\n');
 }
