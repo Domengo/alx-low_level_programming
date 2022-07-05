@@ -8,5 +8,5 @@
 int main(void)
 {
 	_printchar();
-	return(0);
+	return (0);
 }
