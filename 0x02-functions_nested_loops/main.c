@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *main calls other functions
+ *main - calls other functions
  *
- *Return: 0
+ *Return:always 0
  */
 int main(void)
 {
 	_printchar();
-	return (0);
+	return(0);
 }
