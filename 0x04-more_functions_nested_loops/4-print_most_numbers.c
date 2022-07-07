@@ -3,7 +3,7 @@
 * more_numbers - print number 0-9
 * Return: void
 */
-void more_numbers(void)
+void print_most_numbers(void)
 
 {
 	int i;
