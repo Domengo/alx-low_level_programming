@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Apply the constructor attribute to print() so that it is executed before main() */
+/**
+*Apply the constructor attribute to print()
+*so that it is executed before main()
+*/
 void print (void) __attribute__ ((constructor));
 
 /**
-*@print - function thet prints a string
+* print -  prints a string
 *
 *Return: Always 0 on success
 */
 void print(void)
 {
-	printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,");
+	printf("\n bore my house upon my back!\n");
 }
