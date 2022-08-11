@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
-*Apply the constructor attribute to print()
-*so that it is executed before main()
-*/
-void print (void) __attribute__ ((constructor));
+void print(void) __attribute__ ((constructor));
 
 /**
 * print -  prints a string
