@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* print_dlistint_t - prints all the elements of a dlistint_t
+* print_dlistint - prints all the elements of a dlistint_t
 * @h: pointer to the dlistint_t start
 *
 * Return: the number of nodes in h
