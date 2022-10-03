@@ -1,37 +1,29 @@
-#include <stdlib.h>
 #include <stdio.h>
+
+int add(int a, int b);
+int sub(int a, int b);
+int mul(int a, int b);
+int div(int a, int b);
+int mod(int a, int b);
 
 int add(int a, int b)
 {
-        int result;
-        result = a + b;
-        printf("%d\n", result);
+    return a + b;
 }
 
 int sub(int a, int b)
 {
-        int result;
-        result = a - b;
-        printf("%d\n", result);
+    return a - b;
 }
-
 int mul(int a, int b)
 {
-        int result;
-        result = a * b;
-        printf("%d\n", result);
+    return a * b;
 }
-
-div_t div(int a, int b)
+int div(int a, int b)
 {
-        double result;
-        result = a/b;
-        printf("%f\n", result);
+    return a / b;
 }
-
 int mod(int a, int b)
 {
-        int result;
-        result = a % b;
-        printf("%d\n", result);
+    return a % b;
 }
